@@ -1,0 +1,219 @@
+.Sall{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.SFourSection{
+   position: relative;
+    height: 100%;
+    width: 90%;
+
+}
+
+.Scont{
+    height: 100%;
+    width: 100%;
+   margin-left: 5%;
+   margin-top: 4%;
+   position: relative;
+}
+
+.Sslider-container {
+    display: flex;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .Sleft-part {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Change to 'space-between' to move text to the bottom */
+  }
+  
+  
+
+
+  .Sslider-part {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Sright-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Sright-part img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+  
+  }
+  
+
+
+  /* Add the following CSS to your stylesheet */
+.Scarousel-controls-left-4 {
+    position: absolute; /* Position the button relative to .FourSection */
+    right: 48%; 
+    bottom: 10;
+    transform: translateY(-50%);
+    /* background-color: blue; */
+
+}
+  
+.Scarousel-controls-left-4 button {
+    background: transparent;
+    border: none;
+    z-index: 1;
+    font-size: 34px;
+    color: #ffffff; /* Set the color you prefer */
+    cursor: pointer;
+    background-color: rgb(141, 141, 147);
+    border: #ccc 1px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    transform: translateY(-50%);
+  
+   
+    transform: translateY(-50%);
+}
+  
+  .Scarousel-controls-left-4 button:disabled {
+    color: #ccc; /* Set a disabled color */
+    cursor: not-allowed;
+  }
+  
+
+    /* Add the following CSS to your stylesheet */
+.Scarousel-controls-right-4 {
+    position: absolute; /* Position the button relative to .FourSection */
+    right: 43%; 
+    bottom: 0;
+    transform: translateY(-50%);
+  
+  
+}
+  
+.Scarousel-controls-right-4 button {
+    background: transparent;
+    border: none;
+    z-index: 1;
+    font-size: 34px;
+    color: #faf3f3; /* Set the color you prefer */
+    cursor: pointer;
+    background-color: rgb(141, 141, 147);
+    border: #ccc 1px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    transform: translateY(-50%);
+}
+  
+  .Scarousel-controls-right-4 button:disabled {
+    color: #ccc; /* Set a disabled color */
+    cursor: not-allowed;
+  }
+
+  .Scarousel-controls-right-4 button:hover {
+    background-color: rgb(128, 128, 126); /* Change the text color to orange on hover */
+}
+
+  .Scarousel-controls-left-4 button:hover {
+    background-color: rgb(128, 128, 126); /* Change the text color to orange on hover */
+}
+
+
+
+/* Add a border to the left side of the text container */
+.Sleft-part {
+  
+    padding-left: 7rem; /* Add some spacing between the border and text */
+}
+
+/* Adjust the text alignment and other styles if needed */
+.Sslider-part.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.Sunder-carousel{
+    width: 80%;
+    height: 10%;
+    background-color: black;
+}
+.Srow{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 3rem; */
+
+}
+
+.Sbtnmoreblog{
+    width: 50%;
+    background-color: #9D0C00;
+}
+
+
+/* Add this CSS to your stylesheet */
+
+.Shuge-text {
+  position: absolute;
+  font-size: 200px; 
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  top: 25%; 
+  transform: translateY(-50%);
+  left: 1%;
+}
+
+.Shuge-text2 {
+  position: absolute;
+  font-size: 180px; /* Adjust the font size as needed */
+  font-weight: 500;
+  color: rgb(12, 12, 12);
+  top: 70%; /* Position it vertically in the middle of the slider */
+  left: 30%; /* Adjust the left position as needed */
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+  
+  /* Style for the left side of the slider */
+  .Sslider-part {
+    position: relative;
+  }
+  
+
+  
+  /* Style for the right side of the slider */
+  .Sright-part {
+    position: relative;
+  }
+  
+  

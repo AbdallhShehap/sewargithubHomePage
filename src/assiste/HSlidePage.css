@@ -1,0 +1,12 @@
+/* HSlidePage.css */
+
+/* Option 1: Using a custom class */
+.custom-carousel {
+    width: 100%;
+  }
+  
+  /* Option 2: Selecting the MDBCarousel component directly */
+  .MDBCarousel {
+    width: 100%;
+  }
+  

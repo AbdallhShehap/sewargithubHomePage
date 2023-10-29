@@ -1,0 +1,93 @@
+.OurFamilyContent{
+    height: 300vh;
+    width: 100%;
+}
+
+.titleourfamily{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 30vh;
+    color: black;
+}
+.titleourfamily h1{
+    font-size: 7rem;
+    font-weight:bolder;
+}
+
+.GulleryOurFamily{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    height: 120vh;
+    width: 100%;
+    }
+    
+    .GulleryOurFamily img{
+    border-radius: 5%;
+    margin-top: 10rem;
+    }
+    
+    .ourfamilyimg1 img{
+   
+        height: 30rem; 
+        width: 80%;
+        
+        margin-left: 3rem;
+    }
+    .ourfamilyimg2 img{
+   
+        height: 30rem; 
+        width: 80%;
+        margin-top: 7rem;
+        margin-left: 3rem;
+       
+        
+        
+    }
+    .ourfamilyimg3 img{
+        height: 30rem; 
+        width: 80%;
+      
+        margin-left: 3rem;
+    }
+
+    .ourfamilyimg4 img {
+        height: 30rem; 
+        width: 80%;
+        margin-top: 7rem;
+        margin-left: 3rem;
+       
+    }
+
+    .QA-Message{
+        height: 50vh;
+        width: 94%;
+        /* margin-top: 10rem; */
+        margin-left: 5%;
+    }
+
+    .JOIN-OUR-TALENTED-TEAM {
+        height: 65vh;
+        width: 100%;
+        margin-top: 35vh;
+        background-color: #911E1A;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .circle-inside {
+        height: 20rem;
+        width: 20rem;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:5rem  ;
+      }
+      
+      .centered-text {
+        text-align: center;
+      }
+      

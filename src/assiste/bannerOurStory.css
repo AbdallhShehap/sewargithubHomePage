@@ -1,0 +1,50 @@
+.BannerOurStory{
+    height: 170vh;
+    width: 100%;
+}
+
+.Gullery{
+position: relative;
+height: 80%;
+width: 100%;
+}
+
+.Gullery img{
+border-radius: 5%;
+margin-top: 10rem;
+}
+
+.img1{
+    position: absolute;
+    left: 10px;
+    height: 600px;
+    width: 415px;
+   
+    margin-left: 5rem;
+}
+.img2{
+    position: absolute;
+    left: 25rem;
+    top: 6rem;
+
+    height: 600px;
+    width: 415px;
+    
+    
+}
+.img3{
+    position: absolute;
+    left:43rem;
+    top: 3rem;
+    height: 600px;
+    width: 415px;
+   
+    
+}
+.img4{
+    position: absolute;
+    left: 60rem;
+    height: 600px;
+    width: 415px;
+   
+}

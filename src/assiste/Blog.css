@@ -1,0 +1,17 @@
+
+
+/* Blogs.css */
+.custom-card {
+    border: none;
+    
+  }
+  
+
+  .btnmoreblog{
+    border: 1px solid red;
+    border-radius: 30%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 25%;
+    font-size: 5rem;
+  }

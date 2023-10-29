@@ -1,0 +1,47 @@
+.border-right {
+    border-right: 1px solid #000; /* Adjust the border properties as needed */
+  }
+
+  .form-control{
+ 
+  }
+
+  /* feedback.css */
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+
+/* 
+  .btnmoreblog:hover{
+    background-color: white  !important;
+    color: black !important;
+  } */
+
+  .btnmoreblog.clicked {
+    background-color: white  !important;
+    color: black !important;
+  }

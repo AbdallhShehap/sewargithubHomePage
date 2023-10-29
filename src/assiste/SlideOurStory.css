@@ -1,0 +1,22 @@
+.slides-container{
+    height: 740px;
+    width: 100%;
+    background-color: black;
+}
+
+.side{
+    height: 100%;
+    width: 100%;
+    background-color: #911E1A;
+}
+
+.image-text{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/ourstory_slid.png');
+
+
+    position: relative;
+}
+
+
