@@ -15,17 +15,17 @@ const allBlogsData  = [
   {
     title: 'Blog Title 1',
     image: hpimgblog1,
-    content: 'Content of Blog 1 Content of Blog 1 Content of Blog 1 Content of Blog 1 Content of Blog 1',
+    content: 'Content of Blog 1  Content of Blog 2We consider it the little magnet; it is wanting to come here and afterward difficult to leave it.',
   },
   {
     title: 'Blog Title 2',
     image: hpimgblog2,
-    content: 'Content of Blog 2 Content of Blog 2 Content of Blog 2 Content of Blog 2 Content of Blog 2',
+    content: 'Content of Blog 2 Content of Blog 2We consider it the little magnet; it is wanting to come here and afterward difficult to leave it. ',
   },
   {
     title: 'Blog Title 3',
     image: hpimgblog3,
-    content: 'Content of Blog 3 Content of Blog 3 Content of Blog 3 Content of Blog 3 Content of Blog 3',
+    content: 'Content of Blog 3  Content of Blog 2We consider it the little magnet; it is wanting to come here and afterward difficult to leave it.',
   }
   
 ];
@@ -38,7 +38,7 @@ export default function BlogsHomePage() {
   
   
     return (
-      <div className='contanner-blogs' style={{height:"100vh"}}>
+      <div className='contanner-blogs' style={{height:"130vh"}}>
          <div style={{ display: "flex", justifyContent: "center", marginBottom:"2rem" }}>
         <h3 style={{ fontSize: "40px", color: "black" }}>SEE OUR LATEST STORIES</h3>
       </div>
@@ -61,7 +61,7 @@ export default function BlogsHomePage() {
                   className="btnmoreblog"
                   color="danger"
                  
-                  style={{ fontSize: "25px" , marginTop:"3rem" ,color:"black"}}
+                  style={{ fontSize: "20px" , marginTop:"3rem" ,color:"black", width:"30%"}}
                 >
                   SEE ALL OUR NEWS
                 </MDBBtn>

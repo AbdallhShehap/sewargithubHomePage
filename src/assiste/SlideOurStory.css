@@ -1,5 +1,5 @@
 .slides-container{
-    height: 740px;
+    height: 120vh;
     width: 100%;
     background-color: black;
 }
@@ -15,8 +15,21 @@
     width: 100%;
     background-image: url('../images/ourstory_slid.png');
 
-
     position: relative;
 }
 
+
+
+@media (max-width: 768px) {
+    .slides-container {
+        background-image: url('../images/ourstory_slid.png');
+
+    }
+.OURBOX{
+   
+}
+
+
+    
+  }
 

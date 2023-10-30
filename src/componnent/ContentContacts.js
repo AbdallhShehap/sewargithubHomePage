@@ -40,7 +40,7 @@ export default function ContentContacts() {
                 style={{
                   color: "black",
                   fontSize: "2rem",
-                  fontSize: "2rem",
+                  fontSize: "20px",
                   fontWeight: "400",
                 }}
               >
@@ -56,7 +56,7 @@ export default function ContentContacts() {
                 style={{
                   color: "black",
                   fontSize: "2rem",
-                  fontSize: "2rem",
+                  fontSize: "20px",
                   fontWeight: "700",
                 }}
               >
@@ -73,7 +73,7 @@ export default function ContentContacts() {
                 style={{
                   color: "black",
                   fontSize: "2rem",
-                  fontSize: "2rem",
+                  fontSize: "20px",
                   fontWeight: "700",
                 }}
               >

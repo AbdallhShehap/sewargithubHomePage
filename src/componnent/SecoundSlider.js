@@ -61,14 +61,17 @@ export default function SecoundSlider() {
             <Carousel.Item key={slideIndex}>
               <div className="Sslider-container">
                 <div className="Sslider-part">
-                  <div className="Stext-at-bottom" style={{ width: "65%", height:"80%"}}>
-                    <p style={{ fontSize: "18px", marginTop:"7rem" }}>{slide.description}</p>
-                    <div style={{ textAlign: "start", marginTop: "20px" }}>
+                  <div className="Stext-at-bottom" style={{ width: "65%", height:"90%"}}>
+
+                    <p style={{ fontSize: "16px", marginTop:"7rem" }}>{slide.description}</p>
+
+
+                    <div style={{ textAlign: "start", marginTop: "10px" }}>
                       <MDBBtn
                         outline
                         rounded
                         className="Sbtnmoreblog"
-                        style={{ fontSize: "13px", backgroundColor: "#9D0C00", color: "white" }}
+                        style={{  backgroundColor: "#9D0C00", color: "white" }}
                       >
                         SEE ALL OUR NEWS
                       </MDBBtn>

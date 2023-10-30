@@ -11,6 +11,7 @@ import {
 } from 'mdb-react-ui-kit';
 import logo from "../images/logo.png";
 import '../assiste/menuHome.css';
+import {Link} from "react-router-dom"
 
 export default function App() {
   const [showNavSecond, setShowNavSecond] = useState(false);
@@ -19,7 +20,7 @@ export default function App() {
     <MDBNavbar expand='lg' bgColor='black' className='HContainer-navbar'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#' style={{ color: "white" }}>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" width="50%" />
         </MDBNavbarBrand>
         <MDBNavbarToggler
           aria-expanded='false'
@@ -28,69 +29,84 @@ export default function App() {
         >
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
+
+
         <MDBCollapse navbar show={showNavSecond} style={{}}>
           <MDBNavbarNav
             style={{
               display: "flex",
-              justifyContent: "center",
+              justifyContent: "start",
               alignItems: "center", 
-              marginLeft:"3rem",
+              marginLeft:"2rem",
+              
+              
             }}
           >
             <MDBNavbarLink
               href='#'
-              style={{ color: "white", fontSize: "24px", margin: "0 1rem" }}
+              style={{ color: "white", fontSize: "18px", margin: "0 1rem" }}
             >
-              HOME
-            </MDBNavbarLink>
-            <MDBNavbarLink
-              href='#'
-              style={{ color: "white", fontSize: "24px", margin: "0 1rem" }}
-            >
+              <Link to="/ourstory" style={{color:'white'}}> HOME</Link>
               
-              OUR_STORY
             </MDBNavbarLink>
             <MDBNavbarLink
               href='#'
-              style={{ color: "white", fontSize: "24px", margin: "0 1rem" }}
+              style={{ color: "white", fontSize: "18px", margin: "0 1rem" }}
             >
-              OUR_PRODUCTS
+               <Link to="/ourstory" style={{color:'white'}}> OUR_STORY</Link>
+             
             </MDBNavbarLink>
             <MDBNavbarLink
               href='#'
-              style={{ color: "white", fontSize: "24px", margin: "0 1rem" }}
+              style={{ color: "white", fontSize: "18px", margin: "0 1rem" }}
             >
-              CONTACT_US
-            </MDBNavbarLink>
-          </MDBNavbarNav>
+             <Link to="/" style={{color:'white'}}> OUR_PRODUCTS</Link>
 
-          <MDBNavbarNav
+              
+            </MDBNavbarLink>
+            <MDBNavbarLink
+              href='#'
+              style={{ color: "white", fontSize: "18px", margin: "0 1rem" }}
+            >
+            <Link to="/contacts" style={{color:'white'}}> CONTACT_US</Link>
+
+              
+            </MDBNavbarLink>
+
+            <MDBNavbarNav
             style={{
               display: "flex",
-              justifyContent: "end",
+              justifyContent:"end",
               alignItems: "center", 
-              marginRight:"3rem"
+              
             }}
           >
-            <MDBIcon icon='search' fas style={{ color: "white", marginRight:"5rem" , fontSize:"30px" }} />
+            <MDBIcon icon='search' fas style={{ color: "white", fontSize:"15px", marginRight:"1rem" }} />
             <MDBIcon
               icon='facebook'
               fab
-              style={{ margin: '0 1rem', color: "white" , fontSize:"30px"}}
+              style={{  color: "white" , fontSize:"15px" , marginRight:"0.5rem"}}
             />
             <MDBIcon
               icon='instagram'
               fab
-              style={{ margin: '0 1rem', color: "white" , fontSize:"30px"}}
+              style={{ color: "white" , fontSize:"15px", marginRight:"0.5rem"}}
             />
             <MDBIcon
               icon='youtube'
               fab
-              style={{ margin: '0 1rem', color: "white" , fontSize:"30px"}}
+              style={{ color: "white" , fontSize:"15px", marginRight:"0.5rem"}}
             />
           </MDBNavbarNav>
+          </MDBNavbarNav>
+
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
   );
 }
+
+
+
+
+

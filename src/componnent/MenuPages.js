@@ -11,6 +11,8 @@ import {
 } from 'mdb-react-ui-kit';
 import logo from "../images/logo.png";
 import '../assiste/menuPages.css';
+import {Link} from "react-router-dom"
+
 
 export default function App(props) {
   const { our, path } = props; 
@@ -20,7 +22,7 @@ export default function App(props) {
     <MDBNavbar expand='lg' bgColor='#911E1A' className='Container-navbar'>
       <MDBContainer fluid className="navbar-container">
         <MDBNavbarBrand href='#' style={{ color: "white" }}>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" width="70%" />
         </MDBNavbarBrand>
         <MDBNavbarToggler
           aria-expanded='false'
@@ -37,30 +39,35 @@ export default function App(props) {
               justifyContent: "center",
             }}
           >
-            <MDBNavbarLink style={{ color: "white", fontSize: "20px", marginLeft:"4rem" }}>
-              HOME
+            <MDBNavbarLink style={{ color: "white", fontSize: "16px", marginLeft:"0rem" }}>
+              
+              <Link to="/" style={{color:'white'}}> HOME</Link>
+
             </MDBNavbarLink>
           </MDBNavbarNav>
 
           <MDBNavbarNav>
-            <MDBNavbarLink style={{ color: "white", fontSize: "20px" , marginLeft:"2rem"}}>
+            <MDBNavbarLink style={{ color: "white", fontSize: "16px" , marginLeft:"0rem"}}>
               ABOUT US
             </MDBNavbarLink>
           </MDBNavbarNav>
           <MDBNavbarNav>
-            <MDBNavbarLink style={{ color: "white", fontSize: "20px", marginRight:"3rem" }}>
-              OUR PRODUCTS
+            <MDBNavbarLink style={{ color: "white", fontSize: "16px", marginRight:"0rem" }}>
+              OUR_PRODUCTS
             </MDBNavbarLink>
           </MDBNavbarNav>
 
           <MDBNavbarNav>
-            <MDBNavbarLink style={{ color: "white", fontSize: "20px", marginLeft:"2rem" }}>
+            <MDBNavbarLink style={{ color: "white", fontSize: "16px", marginLeft:"1rem" }}>
               SERVICES
             </MDBNavbarLink>
           </MDBNavbarNav>
           <MDBNavbarNav>
-            <MDBNavbarLink style={{ color: "white", fontSize: "20px" }}>
-              CONTACTS
+            <MDBNavbarLink style={{ color: "white", fontSize: "16px" }}>
+              
+
+              <Link to="/contacts" style={{color:'white'}}> CONTACTS</Link>
+
             </MDBNavbarLink>
           </MDBNavbarNav>
           <MDBNavbarNav
@@ -72,17 +79,17 @@ export default function App(props) {
             <MDBIcon
               icon='facebook'
               fab
-              style={{ margin: '0 1rem', color: "white", fontSize: "20px" }}
+              style={{ marginLeft: '0.5rem', color: "white", fontSize: "20px" }}
             />
             <MDBIcon
               icon='instagram'
               fab
-              style={{ margin: '0 1rem', color: "white", fontSize: "20px" }}
+              style={{ marginLeft: '0.5rem', color: "white", fontSize: "20px" }}
             />
             <MDBIcon
               icon='youtube'
               fab
-              style={{ margin: '0 1rem', color: "white", fontSize: "20px" }}
+              style={{ marginLeft: '0.5rem', color: "white", fontSize: "20px" }}
             />
           </MDBNavbarNav>
         </MDBCollapse>

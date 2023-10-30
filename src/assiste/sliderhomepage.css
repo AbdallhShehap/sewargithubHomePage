@@ -1,7 +1,8 @@
 .Hsliderhomepage{
-    height: 943px;
+    height: 75vh;
     width: 100%;
-    position: relative;
+    /* position: relative; */
+    
 }
 
 
@@ -10,11 +11,67 @@
   .black-box-outsrtory {
     background-color: rgb(38, 38, 38,0.6);
     /* opacity: 0.6; */
-    width: 750px; 
-    height: 370px; 
+   
+    
     position: absolute;
-    top: 23rem;
+    top: 26%;
+    left: 2%;
     
      
   }
+
+  .EXPERIENCE h1{
+    font-size: 60px;
+  }
   
+  .text-b{
+    font-size: 15px;
+  }
+
+  @media (max-width: 1000px) {
+    .black-box-outsrtory {
+      background-color: rgb(38, 38, 38,0.6);
+    
+     
+      
+      position: absolute;
+      top: 20%;
+      left: 2%;
+      
+    }
+  }
+
+
+  @media (max-width: 900px) {
+    .black-box-outsrtory {
+      background-color: rgb(38, 38, 38,0.6);
+      position: absolute;
+      top: 10%;
+      left: 2%;
+      width: 20%;
+
+    }
+
+    .EXPERIENCE h1{
+      font-size: 40px;
+    }
+
+    .text-b{
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 725px) {
+    .black-box-outsrtory {
+     display: none;
+
+    }
+
+    .EXPERIENCE h1{
+      font-size: 40px;
+    }
+
+    .text-b{
+      font-size: 15px;
+    }
+  }

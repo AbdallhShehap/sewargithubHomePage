@@ -146,7 +146,7 @@ import {MDBBtn
           type="submit"
           outline
           rounded
-          className="btnmoreblog"
+          className="btnmoreblogf"
           style={{
             fontSize: "18px",
             backgroundColor: "#9D0C00",

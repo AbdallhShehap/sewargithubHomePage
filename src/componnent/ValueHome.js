@@ -42,28 +42,32 @@ export default function ValueHome() {
 
   return (
     <div className="ValueHome" style={{ width: "100%" }}>
-      <div
-        className="title"
-        style={{
+      <Container >
+        <Row  style={{
           display: "flex",
           justifyContent: "start",
-          width: "80%",
+          width: "100%",
 
-          marginLeft: "10rem",
+          marginLeft: "1rem",
           marginBottom: "2rem",
-        }}
-      >
-        <p>
-          <b style={{ fontSize: "30px", color: "black" }}> SEE_OUR</b>
+        }}>
+
+          <Col xs={12} md={6} lg={6}>
+          <p>
+          <b style={{ fontSize: "20px", color: "black" }}> SEE_OUR</b>
         </p>
+
         <h1>
-          <b style={{ fontSize: "180px", color: "black" }}>VALUES</b>
+          <b style={{ fontSize: "120px", color: "black" }}>VALUES</b>
         </h1>
-        <p
+          </Col>
+
+          <Col xs={12} md={6} lg={6}>
+          <p
           style={{
-            width: "35%",
-            marginLeft: "6rem",
-            marginTop: "10rem",
+            width: "100%",
+            marginTop:"50%"
+            
           }}
         >
           Raed Khalil For Chemicals which is located in the Hashemite Kingdom of
@@ -72,9 +76,13 @@ export default function ValueHome() {
           to have the best experience of living in a clean, safe and perfumed
           environment with the scents of our distinctive products.
         </p>
-      </div>
+          </Col>
 
-      <div>
+        </Row>
+
+      </Container>
+
+    
         <Container fluid style={{ width: "80%" }}>
           <Row style={{ marginLeft: "3rem" }}>
             <Col lg={4} md={4} sm={12} style={{ marginTop: "3rem" }}>
@@ -181,7 +189,7 @@ export default function ValueHome() {
           DISCOVER OUR STORY
         </MDBBtn>
         </div>
-      </div>
+      
     </div>
   );
 }

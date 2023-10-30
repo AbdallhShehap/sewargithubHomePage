@@ -17,7 +17,8 @@ export default function Footer() {
         <MDBContainer fluid className="text-center text-md-start mt-5 insidefooter ">
           <MDBRow className="mt-3" style={{marginLeft:"5rem"}} >
             <MDBCol
-              md="4"
+            xs="6"
+              md="3"
               lg="3"
               xl="3"
               className="mx-auto mb-4"
@@ -78,7 +79,8 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol
-              md="4"
+            xs="6"
+              md="3"
               lg="3"
               xl="3"
               className="mx-auto mb-4"
@@ -109,7 +111,8 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol
-              md="4"
+            xs="6"
+              md="3"
               lg="3"
               xl="3"
               className="mx-auto mb-4"
@@ -142,7 +145,8 @@ export default function Footer() {
 
 
             <MDBCol
-              md="4"
+              xs="6"
+              md="3"
               lg="3"
               xl="3"
               className="mx-auto mb-4"

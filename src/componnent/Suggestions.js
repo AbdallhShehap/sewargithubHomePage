@@ -44,17 +44,18 @@ class ProductReviewForm extends Component {
         <form onSubmit={this.handleSubmit}>
           <Container>
             <Row style={{ marginBottom: "3rem", marginTop: "2rem" }}>
-              <Col>
+              <Col xs={4} md={4} lg={4}>
                 <MDBBtn
                   type="button"
                   outline
                   rounded
                   className={`btnmoreblog ${activeButton === "NEW PRODUCT" ? "clicked" : ""}`}
                   style={{
-                    fontSize: "13px",
+                    
                     backgroundColor: activeButton === "NEW PRODUCT" ? "white" : "#9D0C00",
                     color: activeButton === "NEW PRODUCT" ? "black" : "white",
-                    width: "10rem",
+                  
+                  
                   }}
                   onClick={() => this.handleButtonClick("NEW PRODUCT")}
                 >
@@ -62,35 +63,35 @@ class ProductReviewForm extends Component {
                 </MDBBtn>
               </Col>
 
-              <Col>
+              <Col xs={4} md={4} lg={4}>
                 <MDBBtn
                   type="button"
                   outline
                   rounded
                   className={`btnmoreblog ${activeButton === "COMPLAINT" ? "clicked" : ""}`}
                   style={{
-                    fontSize: "13px",
+                    
                     backgroundColor: activeButton === "COMPLAINT" ? "white" : "#9D0C00",
                     color: activeButton === "COMPLAINT" ? "black" : "white",
-                    width: "10rem",
+                   
                   }}
                   onClick={() => this.handleButtonClick("COMPLAINT")}
                 >
-                  COMPLAINT
+                  COMPLAINT 
                 </MDBBtn>
               </Col>
 
-              <Col>
+              <Col xs={4} md={4} lg={4}>
                 <MDBBtn
                   type="button"
                   outline
                   rounded
                   className={`btnmoreblog ${activeButton === "POINT OF SALE" ? "clicked" : ""}`}
                   style={{
-                    fontSize: "13px",
+                    
                     backgroundColor: activeButton === "POINT OF SALE" ? "white" : "#9D0C00",
                     color: activeButton === "POINT OF SALE" ? "black" : "white",
-                    width: "10rem",
+                    
                   }}
                   onClick={() => this.handleButtonClick("POINT OF SALE")}
                 >
@@ -111,6 +112,7 @@ class ProductReviewForm extends Component {
               name="name"
               value={this.state.name}
               onChange={this.handleInputChange}
+              style={{  borderRadius:"15px"}}
             />
               </Col>
               <Col xs={6} md={8} lg={1}></Col>
@@ -128,6 +130,7 @@ class ProductReviewForm extends Component {
               name="country"
               value={this.state.country}
               onChange={this.handleInputChange}
+              style={{  borderRadius:"15px"}}
             />
               </Col>
               <Col xs={6} md={8} lg={1}></Col>
@@ -143,6 +146,7 @@ class ProductReviewForm extends Component {
               name="message"
               value={this.state.message}
               onChange={this.handleInputChange}
+              style={{  borderRadius:"15px"}}
             />
               </Col>
               <Col xs={6} md={8} lg={1}></Col>
@@ -154,7 +158,7 @@ class ProductReviewForm extends Component {
           type="submit"
           outline
           rounded
-          className="btnmoreblog"
+          className="btnmoreblogs"
           style={{
             fontSize: "18px",
             backgroundColor: "#9D0C00",

@@ -8,10 +8,12 @@ export default function SliderHomePage() {
     <>
       <MDBCarousel className="Hsliderhomepage">
         <MDBCarouselItem
-          className="w-100 d-block"
+          className="w-100 d-block "
           itemId={1}
           src={image1}
           alt="..."
+          
+         
         />
 
         <MDBCarouselItem
@@ -27,17 +29,20 @@ export default function SliderHomePage() {
           alt="..."
         />
       </MDBCarousel>
-      <div className="black-box-outsrtory" style={{ color: "white",  textAlign:"start" }}>
-        <div style={{ marginLeft: "2rem" , marginTop:"1rem" }}>
+
+
+
+      <div className="black-box-outsrtory" style={{ color: "white",  textAlign:"start" , width:"45%" , height:'40%' }}>
+        <div style={{ marginLeft: "1rem" , marginTop:"1rem" }}>
           <h3 style={{fontSize:"34px"}}>THE BEST</h3>
         </div>
-        <div  style={{ marginLeft: "2rem" }}>
-          <h1 style={{fontWeight:"700", fontSize:"117px"}}>EXPERIENCE</h1>
+        <div className ="EXPERIENCE" style={{ marginLeft: "1rem" }}>
+          <h1  style={{fontWeight:"700"}}>EXPERIENCE</h1>
         </div>
         
         <div>
 
-        <p style={{ fontSize: "25px", marginLeft: "2rem" }}>
+        <p className="text-b" style={{  marginLeft: "1rem" }}>
         OF LIVING IN A CLEAN, SAFE AND PERFUMED 
 ENVIRONMENT WITH THE SCENTS OF OUR 
 DISTINCTIVE PRODUCTS
@@ -46,9 +51,9 @@ DISTINCTIVE PRODUCTS
 
 
         </div>
-        <div style={{ marginLeft: "2rem" }}>
+        <div style={{ marginLeft: "1rem" }}>
 
-        <p  style={{ fontSize:"28px" , marginTop:"2rem" , textDecoration: "underline"}}><b>READ MORE</b> </p>
+        <p  style={{ fontSize:"28px" , marginTop:"1.3rem" , textDecoration: "underline"}}><b>READ MORE</b> </p>
         </div>
       </div>
     </>

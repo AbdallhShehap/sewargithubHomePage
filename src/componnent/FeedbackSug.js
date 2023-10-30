@@ -10,10 +10,10 @@ import FeedbaceSlider from "./FeedbaceSlider";
 
 export default function FeedbackSug() {
   return (
-    <div>
+    <div className="FeedbackSug">
       <Container>
         <Row >
-          <Col>
+          <Col xs={12} md={6} lg={6}>
             {" "}
             <div
               className="title"
@@ -25,9 +25,15 @@ export default function FeedbackSug() {
             >
               <h1>FEEDBACK</h1>
             </div>
+
+                  {/* Feedback */}
+          <div xs={12} md={6} lg={6} className="border-right" style={{marginTop:"3rem"}}>
+            <Feedback />
+          </div>
+
           </Col>
 
-          <Col>
+          <Col xs={12} md={6} lg={6} className="Suggestions">
             {" "}
             <div
               className="title"
@@ -39,19 +45,15 @@ export default function FeedbackSug() {
             >
               <h1>Suggestions</h1>
             </div>
-          </Col>
-        </Row>
-        <Row>
-          {/* Feedback */}
-          <Col xs={12} md={6} lg={6} className="border-right" style={{marginTop:"3rem"}}>
-            <Feedback />
-          </Col>
 
-          {/* Suggestions */}
-          <Col xs={12} md={6} lg={6}>
+             {/* Suggestions */}
+          <div xs={12} md={6} lg={6}>
             <Suggestions />
+          </div>
+
           </Col>
         </Row>
+      
       </Container>
       <br /> <br /> <br />
       <hr />

@@ -19,7 +19,7 @@ export default function SlideOurStory() {
 
       "OUR VALUES Raed Khalil For Chemicals Company is one of the leading companies in the eld of detergents and fragrances industry, we started in 2017, and our passion has been always towards development.",
 
-      "OUR FAMILY and our passion has been always towards development Raed Khalil For Chemicals Company is one of the leading companies in the eld of detergents and fragrances industry, we started in 2017, and our passion has been always towards development."
+      "OUR FAMILY and our passion has been always towards development Raed Khalil For Chemicals Company is one of the leading companies in the eld of detergents and fragrances industry, we started in 2017."
     ];
 
     if (selectedRow !== null && selectedRow >= 0 && selectedRow < texts.length) {
@@ -66,8 +66,9 @@ export default function SlideOurStory() {
               color: "white",
               width: "60%",
               height: "25rem",
-              marginBottom: "10rem",
-              marginLeft: "23.5rem",
+              marginTop: "50%",
+              marginLeft: "42%",
+              backgroundColor:"rgb(0, 0, 0, 0.4)"
             }}
           >
             <p

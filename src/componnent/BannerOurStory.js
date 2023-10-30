@@ -22,10 +22,10 @@ export default function BannerOurStory() {
         <Container>
             <Row>
 
-                <Col xs={6} md={6} lg={6} style={{fontSize:"130px" , color:"black", fontWeight:"700"}}><b>ABOUT US</b> </Col>
+                <Col xs={6} md={7} lg={7} className="Aboutus" style={{}}><b>ABOUT US</b> </Col>
 
 
-                <Col xs={6} md={6} lg={6}  style={{fontSize:"20px" , color:"black"}}>
+                <Col xs={6} md={5} lg={5} className="paraabout" style={{ marginBottom:"30px"}}>
                 Raed Khalil For Chemicals Company is one of the leading companies in
           the field of detergents and fragrances industry, we started in 2017,
           and our passion has always been towards development, growth, and
@@ -37,6 +37,7 @@ export default function BannerOurStory() {
             </Container>
 
       </div>
+      
     </div>
   );
 }

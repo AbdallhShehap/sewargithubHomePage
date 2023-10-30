@@ -45,3 +45,37 @@
     background-color: white  !important;
     color: black !important;
   }
+
+  .btnmoreblog{
+    width: 140px ;
+    padding: 30px;
+    font-size: 14px;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .btnmoreblog{
+      width: 100px;
+      font-size: 10px;
+    }
+  }
+ 
+  .FeedbackSug{
+    height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .FeedbackSug{
+      height: 160vh;
+     
+    }
+
+    .title{
+      margin-top: 30px;
+    }
+
+    .border-right{
+      border: none;
+    }
+  }
+  
